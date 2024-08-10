@@ -1,0 +1,138 @@
+[
+    {
+        "front": "lake",
+        "back": "See"
+    },
+    {
+        "front": "cloudy",
+        "back": "bedeckt, bewölkt"
+    },
+    {
+        "front": "around",
+        "back": "um ... herum, umher"
+    },
+    {
+        "front": "fire",
+        "back": "Feuer"
+    },
+    {
+        "front": "stick",
+        "back": "Stock, Schläger"
+    },
+    {
+        "front": "rock climbing",
+        "back": "Klettern"
+    },
+    {
+        "front": "arts and crafts",
+        "back": "Kunsthantwerk"
+    },
+    {
+        "front": "instead",
+        "back": "stattdessen"
+    },
+    {
+        "front": "photography contest",
+        "back": "Fotowettbewerb"
+    },
+    {
+        "front": "guy",
+        "back": "Typ, Kerl, Leute"
+    },
+    {
+        "front": "pyramid",
+        "back": "Pyramide"
+    },
+    {
+        "front": "mummy",
+        "back": "Mumie"
+    },
+    {
+        "front": "(to) joke",
+        "back": "scherzen, Spaß machen"
+    },
+    {
+        "front": "ride",
+        "back": "Fahrt, Ritt"
+    },
+    {
+        "front": "soon",
+        "back": "bald"
+    },
+    {
+        "front": "(to) teach",
+        "back": "unterrichten, lehren, beibringen"
+    },
+    {
+        "front": "trick",
+        "back": "Kunststückchen"
+    },
+    {
+        "front": "Guess what?",
+        "back": "Weißt du was?"
+    },
+    {
+        "front": "(to) guess",
+        "back": "raten, erraten, vermuten"
+    },
+    {
+        "front": "(to) give a high five",
+        "back": "abklatschen, einschlagen"
+    },
+    {
+        "front": "early",
+        "back": "früh"
+    },
+    {
+        "front": "(to) practise",
+        "back": "üben, trainieren"
+    },
+    {
+        "front": "coach",
+        "back": "Trainer/-in"
+    },
+    {
+        "front": "local",
+        "back": "örtlich, lokal"
+    },
+    {
+        "front": "news",
+        "back": "Nachricht(en), Neuigkeit(en)"
+    },
+    {
+        "front": "message",
+        "back": "Botschaft, Nachricht"
+    },
+    {
+        "front": "postcard",
+        "back": "Postkarte"
+    },
+    {
+        "front": "fun park",
+        "back": "Freizeitpark"
+    },
+    {
+        "front": "campsite",
+        "back": "Zeltplatz, Campingplatz"
+    },
+    {
+        "front": "mountian",
+        "back": "Berg"
+    },
+    {
+        "front": "forest",
+        "back": "Wald"
+    },
+    {
+        "front": "tent",
+        "back": "Zelt"
+    },
+    {
+        "front": "north",
+        "back": "Norden, Nord-"
+    },
+    {
+        "front": "south",
+        "back": "Süden, Süd-"
+    }
+]
