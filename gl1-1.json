@@ -1,14 +1,42 @@
 [
     {
-        "front": "dog",
-        "back": "Hund"
+        "front": "apple",
+        "back": "Apfel"
     },
     {
-        "front": "cat",
-        "back": "Katze"
+        "front": "house",
+        "back": "Haus"
     },
     {
-        "front": "bird",
-        "back": "Vogel"
+        "front": "car",
+        "back": "Auto"
+    },
+    {
+        "front": "tree",
+        "back": "Baum"
+    },
+    {
+        "front": "water",
+        "back": "Wasser"
+    },
+    {
+        "front": "bread",
+        "back": "Brot"
+    },
+    {
+        "front": "sun",
+        "back": "Sonne"
+    },
+    {
+        "front": "moon",
+        "back": "Mond"
+    },
+    {
+        "front": "book",
+        "back": "Buch"
+    },
+    {
+        "front": "flower",
+        "back": "Blume"
     }
 ]
