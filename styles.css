@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.button {
+  background-color: #58cc02;
+  box-shadow: 0 5px 0 #58a700;
+  border: none;
+  margin: 10px;
+  width: 3rem;
+  height: 3rem;
+  font-size: large;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.question-button {
+  background-color: rgba(85, 85, 85, 0.24);
+  color: rgb(114, 114, 114);
+  font-size: larger;
+  padding: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  margin: 10px;
+  top: 0;
+  right: 0;
+  transition: transform 0.1s ease;
+}
+
+.question-button:hover {
+    transform: scale(1.05);
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 100%;
+  max-width: 220px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #363636;
+  box-shadow: 5px -5px 0 -1px #fff, 5px -5px #ccc, 10px -10px 0 -1px #fff,
+    10px -10px #ccc, 15px -15px 0 -1px #fff, 15px -15px #ccc,
+    20px -20px 0 -1px #fff, 20px -20px #ccc;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+.switch {
+  animation: opacity 0.5s ease forwards;
+}
+
+.progress {
+  position: absolute;
+  top: 10px;
+  width: 70%;
+  height: 15px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+}
+progress::-webkit-progress-value {
+  background-color: #4caf50;
+  border-radius: 15px;
+}
+progress::-moz-progress-bar {
+  background-color: #4caf50;
+  border-radius: 15px;
+}
+
+.progress-text {
+  position: absolute;
+  top: 35px;
+  font-size: large;
+}
+
+.card.flipped {
+  background-color: rgb(255, 239, 210);
+}
+
+.flip-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgba(85, 85, 85, 0.24);
+  color: rgb(114, 114, 114);
+  border: none;
+  padding: 10px;
+  font-size: large;
+  border-bottom-left-radius: 10px;
+}
+
+.card p {
+  margin: 0;
+  color: #555;
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0); /* Start from its original position */
+  }
+  to {
+    transform: translateX(-70vw); /* Move it out of view to the left */
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

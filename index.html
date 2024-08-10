@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=description content="Website">
+    <title>Index Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/30f4da3e11.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--<progress value="0" max="100" class="progress" id="progress-bar"></progress>-->
+    <button class="question-button" onclick="driverObj.drive();" aria-label="?"><i class="fa-solid fa-question"></i></button>
+    <span class="progress-text" id="progress-text"> 1 / 25</span>
+    <div class="card" id="card" aria-label="Karteikarte">
+        <button id="flip-button" class="flip-button" aria-label="Drehen"><i class="fa-solid fa-arrows-rotate" aria-label="Drehen"></i></button>
+        <h2 id="card-text">Card 1</h2>
+    </div>
+    <div class="inline">
+        <button id="before-button" class="button" aria-label="X"><i class="fa-solid fa-xmark"></i></button>
+        <button id="next-button" class="button" aria-label="Ok"><i class="fa-solid fa-check"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
