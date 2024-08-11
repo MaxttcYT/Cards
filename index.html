@@ -14,8 +14,13 @@
 </head>
 
 <body>
-    <!--<progress value="0" max="100" class="progress" id="progress-bar"></progress>-->
+   <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div> <!-- Progress percentage as text -->
+    </div>
+
+    <a class="create-button" aria-label="+" href="/create/set"><i class="fa-solid fa-plus" ></i></a>
     <button class="question-button" onclick="driverObj.drive();" aria-label="?"><i class="fa-solid fa-question"></i></button>
+
     <span class="progress-text" id="progress-text"> 1 / 25</span>
     <div class="card" id="card" aria-label="Karteikarte">
         <button id="flip-button" class="flip-button" aria-label="Drehen"><i class="fa-solid fa-arrows-rotate" aria-label="Drehen"></i></button>
