@@ -38,11 +38,12 @@ async function getDataFromURL() {
         return defaultData;
     }
 }
-
+var data;
 // Usage example
 (async () => {
-    const data = await getDataFromURL();
-    let learningList = data;
+    data = await getDataFromURL();
+
+    let learningList = [...data]; // Clone the data;
 
     let currentIndex = 0;
     let currentSide = "front";
@@ -52,6 +53,7 @@ async function getDataFromURL() {
     const nextButton = document.getElementById("next-button");
     const beforeButton = document.getElementById("before-button");
     const progressText = document.getElementById("progress-text");
+    const progressBar = document.getElementById("progress-bar");
 
     function calculatePercentage(part, whole) {
       if (whole === 0) {
@@ -61,7 +63,9 @@ async function getDataFromURL() {
     }
 
     function updateProgress() {
-      progressText.innerText = `${learningList.length}`;
+      progressText.innerText = `${learningList.length} / ${data.length}`;
+      var percent = calculatePercentage(data.length - learningList.length,data.length)
+      progressBar.style.width = `${percent}%`;
     }
 
     function updateCard() {
@@ -78,6 +82,7 @@ async function getDataFromURL() {
         nextButton.style.display = "none";
         beforeButton.style.display = "none";
         progressText.style.display = "none";
+        progressBar.style.display = "none";
       } else {
         newText = learningList[currentIndex][currentSide]; // Assign the value based on the current side
       }
@@ -173,6 +178,15 @@ const driverObj = driver({
       popover: {
         title:
           "Hier siehst du, wie viel karten du noch abgefragt wirst",
+        side: "bottom",
+        align: "start",
+      },
+    },
+    {
+      element: ".create-button",
+      popover: {
+        title:
+          "Hier kannst du dein eigenes Lernset erstellen",
         side: "bottom",
         align: "start",
       },
